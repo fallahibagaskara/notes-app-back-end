@@ -99,6 +99,7 @@ const editNoteByIdHandler = (request, h) => {
     response.code(404);
     return response;
 };
+
 const deleteNoteByIdHandler = (request, h) => {
     const { id } = request.params;
 
